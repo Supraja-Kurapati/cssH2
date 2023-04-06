@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    border: 10px groove rgb(230, 137, 209);
+    background-image: url("img.avif");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.uppercontainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.bx {
+  background-color:thistle;
+  color:black;
+  border: 5px solid purple;
+  border-radius: 35px;
+  font-style: italic;
+}
+
+.leftbox {
+  width: 300px;
+  height: 100px;
+  margin-left: 15px;
+  
+}
+
+.midbox {
+    width: 300px;
+    height: 40px;
+  margin-left: -200px;
+  text-align: center;
+}
+.rightbox {
+  width: 300px;
+  height: 100px;
+  margin-left: 200px;
+  padding: 10px 20 10px 20px;
+  text-align: center;
+}
+.midcontainer {
+    display: flex;
+}
+.circle {
+    margin-top: 300px;
+    margin-left: 15px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color:rosybrown;
+    border: 5px solid purple;
+}
+
+.circletext {
+    margin-top: 370px;
+margin-left: -250px;
+font-style: italic;
+text-align: center;
+}
+
+.formbox{
+    width: 250px;
+    height: 750px;
+    border: 10px skyblue dashed;
+    margin-left: 200px ;
+    margin-top: 50px;
+    background-color:white;
+    text-align: center;   
+}
+h3{
+    color: skyblue;
+}
+p{
+    color: skyblue;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 15px;
+    background-color:rgb(241, 58, 165);
+  color: white;
+  border: 5px solid white;
+  border-radius: 35px;
+  font-style: italic;
+}
+.lowercontainer{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.menubox{
+    background-color: skyblue;
+    color:blue;
+    border: 3px solid palevioletred;
+    border-radius: 35px;
+    text-align: center;
+    width: 300px;
+    height:250px;
+    margin-top: 30px;
+}
+.lastbox{
+    height:300px
+    
+}
